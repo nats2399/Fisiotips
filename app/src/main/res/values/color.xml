@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
     <resources>
-        <color name="ColorPrimary">#64dd17</color>
+        <color name="ColorPrimary">#9ccc65</color>
         <color name="ColorPrimaryDark">#ffffff</color>
+
+        <color name="statusBarColor">#689f38</color>
+        <color name="toolBarColor">#8bc34a</color>
     </resources>
 
