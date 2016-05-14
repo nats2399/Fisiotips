@@ -1,10 +1,11 @@
 <resources>
     <string name="app_name">Fisiotips</string>
 
-    <string name="title_section1">Introducción</string>
-    <string name="title_section2">Rutina Diaria</string>
-    <string name="title_section3">Ejercicios</string>
-    <string name="title_section4">Agradecimientos</string>
+    <string name="title_section1">Bienvenidos</string>
+    <string name="title_section2">Introducción</string>
+    <string name="title_section3">Rutina Diaria</string>
+    <string name="title_section4">Ejercicios</string>
+    <string name="title_section5">Agradecimientos</string>
 
     <string name="navigation_drawer_open">Abrir Navegador</string>
     <string name="navigation_drawer_close">Cerrar Navegador</string>
@@ -15,4 +16,7 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+
 </resources>

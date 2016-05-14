@@ -1,6 +1,7 @@
 package com.fisiotips.unisabana.fisiotips;
 
 import android.app.Activity;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBar;
 import android.support.v4.app.Fragment;
@@ -17,6 +18,7 @@ import android.view.ViewGroup;
 import android.support.v4.widget.DrawerLayout;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
+import android.widget.Toast;
 
 
 public class MainActivity extends ActionBarActivity
@@ -57,13 +59,17 @@ public class MainActivity extends ActionBarActivity
     }
 
     public void onSectionAttached(int number) {
+        FragmentManager fragmentManager = getSupportFragmentManager();
         switch (number) {
             case 1:
                 mTitle = getString(R.string.title_section1);
-
                 break;
             case 2:
                 mTitle = getString(R.string.title_section2);
+                FragmentIntro fragmentico = new FragmentIntro();
+                fragmentManager.beginTransaction()
+                        .replace(R.id.navigation_drawer, fragmentico)
+                        .commit();
                 break;
             case 3:
                 mTitle = getString(R.string.title_section3);
@@ -71,7 +77,13 @@ public class MainActivity extends ActionBarActivity
             case 4:
                 mTitle = getString(R.string.title_section4);
                 break;
+            case 5:
+                mTitle = getString(R.string.title_section5);
+                break;
+
         }
+
+
     }
 
     public void restoreActionBar() {
