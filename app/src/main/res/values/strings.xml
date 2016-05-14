@@ -1,14 +1,15 @@
 <resources>
     <string name="app_name">Fisiotips</string>
 
-    <string name="title_section1">Section 1</string>
-    <string name="title_section2">Section 2</string>
-    <string name="title_section3">Section 3</string>
+    <string name="title_section1">Introducción</string>
+    <string name="title_section2">Rutina Diaria</string>
+    <string name="title_section3">Ejercicios</string>
+    <string name="title_section4">Agradecimientos</string>
 
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Abrir Navegador</string>
+    <string name="navigation_drawer_close">Cerrar Navegador</string>
 
-    <string name="action_example">Example action</string>
+    <string name="action_example">Salir</string>
 
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">Configuración</string>
 </resources>
