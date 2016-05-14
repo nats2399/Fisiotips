@@ -49,8 +49,7 @@ public class DBHandler extends SQLiteOpenHelper {
 /*
     public void quemado (SQLiteDatabase db)
     {
-        String quemadura = "INSERT INTO Ejercicios VALUES('1', 'Flexiones de pecho', 'Boca abajo y apoyado en palmas y puntas de los pies, con el cuerpo en posición horizontal, descienda el cuerpo flexionando los brazos evitando que el tronco o las rodillas toquen el suelo.', 'El ejercicio reduce la capacidad de las plaquetas para unirse a las placas de lípidos, lo cual reduce la posibilidad de que las arterias se ocluyan por trombos.', 'Ex_1.jpg', )";
-        db.execSQL(quemadura);
+       
     }*/
 
     public void addExcersice (Exercise ejercicio)
