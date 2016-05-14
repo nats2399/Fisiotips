@@ -49,7 +49,7 @@ public class DBHandler extends SQLiteOpenHelper {
 /*
     public void quemado (SQLiteDatabase db)
     {
-       
+
     }*/
 
     public void addExcersice (Exercise ejercicio)
