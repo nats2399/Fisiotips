@@ -20,7 +20,7 @@
                 android:layout_height="441dp"
                 android:id="@+id/imageView"
                 android:layout_gravity="center"
-                android:src="@mipmap/Iconindex2" />
+                android:src="@mipmap/iconito" />
         </FrameLayout>
     </FrameLayout>
 
